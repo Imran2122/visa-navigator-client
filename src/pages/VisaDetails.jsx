@@ -15,8 +15,10 @@ const VisaDetails = () => {
     email: user?.email || "",
     firstName: "",
     lastName: "",
-    appliedDate: new Date().toISOString().split("T")[0], // Current date
+    appliedDate: new Date().toISOString().split("T")[0], 
     fee: "",
+    
+
   });
 
   // Fetch visa details

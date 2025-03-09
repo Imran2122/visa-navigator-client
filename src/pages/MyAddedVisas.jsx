@@ -28,7 +28,7 @@ const MyAddedVisas = () => {
   };
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto py-10 mt-10 w-11/12 ">
       <h2 className="text-3xl font-bold text-center mb-6">My Added Visas</h2>
 
       {visas.length === 0 ? (

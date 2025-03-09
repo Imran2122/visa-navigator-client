@@ -37,7 +37,7 @@ const Navbar = () => {
             <>
               <NavLink to="/add-visa" className="nav-link">Add Visa</NavLink>
               <NavLink to="/my-added-visas" className="nav-link">My Added Visas</NavLink>
-              <NavLink to="/my-visa-applications" className="nav-link">My Visa Applications</NavLink>
+              <NavLink to="/my-applications" className="nav-link">My Visa Applications</NavLink>
             </>
           )}
         </div>
